@@ -87,7 +87,4 @@ provides the following answers:
 
 * Author: Mohamed Abdel-Gawad Ibrahim
 * Contact: muhammadabdelgawwad@gmail.com
-* Phone: +201069052620
-* Phone: +201147821232
-* Date: 25th April, 2021
-* Version: 1.0.0
+* Phone: +201069052620 || +201147821232
