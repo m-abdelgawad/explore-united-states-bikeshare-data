@@ -44,7 +44,7 @@ The Chicago and New York City files also have the following two columns:
 
 * Gender
 * Birth Year
-<img src="readme_images/nyc-data.png">
+<img src="README_images/nyc-data.png">
 
 ## Statistics Computed
 
@@ -76,12 +76,12 @@ provides the following answers:
 
 ## Screenshots
 
-<img src="readme_images/screenshot1.png">
-<img src="readme_images/screenshot2.png">
-<img src="readme_images/screenshot3.png">
-<img src="readme_images/screenshot4.png">
-<img src="readme_images/screenshot5.png">
-<img src="readme_images/screenshot6.png">
+<img src="README_images/screenshot1.png">
+<img src="README_images/screenshot2.png">
+<img src="README_images/screenshot3.png">
+<img src="README_images/screenshot4.png">
+<img src="README_images/screenshot5.png">
+<img src="README_images/screenshot6.png">
 
 ## About The Author
 
