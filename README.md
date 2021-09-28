@@ -8,7 +8,7 @@ Chicago, New York City, and Washington. The script imports the
 data and answers interesting questions about it by computing descriptive
 statistics. It takes in raw input from the user; to create an interactive experience in the terminal to present these statistics.
 
-Main Features:
+## Main Features:
 * Imports the data from .csv Files
 * Cleans the data set from 3 issues: NAN values, Duplicated Rows, and Incorrect Data types
 * Calculates The Most Frequent Times of Travel
@@ -55,7 +55,7 @@ provides the following answers:
 
 * most common month
 * most common day of week
-* most common hour of day
+* most common hour of the day
 
 ### #2 Popular stations and trip
 
@@ -82,6 +82,12 @@ provides the following answers:
 <img src="README_images/screenshot4.png">
 <img src="README_images/screenshot5.png">
 <img src="README_images/screenshot6.png">
+
+## Certification
+
+This project was a milestone in my journey to study the Data Analysis Professional Nanodegree provided by Udacity.
+
+[![Advanced Data Analysis Nanodegree by Udacity](Udacity_Nanodegree_Graduation_Certificate.jpg)](https://confirm.udacity.com/5G4S74GJ "Advanced Data Analysis Nanodegree by Udacity")
 
 ## About The Author
 
