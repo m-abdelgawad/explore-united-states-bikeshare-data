@@ -1,7 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6abffe0-852e-408a-9407-08c6b5389b1a" name="Changes" comment="" />
+    <list default="true" id="a6abffe0-852e-408a-9407-08c6b5389b1a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SAS-Automation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SAS-Automation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/nohup.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/SAS/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/logger/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/SAS/messages.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/timestamp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/arguments/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/arguments/get.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/csv/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/csv/read.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/dataframe/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/dataframe/clean.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/dataframe/helpers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/dataframe/helpers/clean_df.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/excel/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/excel/read.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/logger/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/logger/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/logger/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/mail/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/mail/mail.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/msisdn/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/msisdn/format.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/project/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/project/absolute_path.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/sms/SENDSMS_procedure_code.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/sms/SENDSMS_procedure_parameters.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/sms/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/sms/helpers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/sms/helpers/send_noshow_sms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/sms/helpers/send_wfh_sms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/sms/helpers/send_wfp_sms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/sms/helpers/send_work_sms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/sms/send.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/timestamp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/packages/timestamp/current.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/timestamp/timestamp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/sas-automation.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_example/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/project/absolute_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/packages/project/absolute_path.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,25 +76,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="ToolWindowEvent Log.ShowToolbar" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Repos/python-project-template/packages",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Repos\python-project-template\packages" />
       <recent name="D:\Repos\Autosquad\shahid-mismatches\data\output\22-02-2022" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Repos\python-project-template\_example" />
+      <recent name="D:\Repos\python-project-template\_example\_example" />
       <recent name="D:\Repos\Autosquad\shahid-mismatches\packages\excel" />
       <recent name="D:\Repos\Autosquad\shahid-mismatches\packages" />
       <recent name="D:\Repos\Autosquad\shahid-mismatches" />
@@ -52,17 +102,17 @@
   </component>
   <component name="RunManager">
     <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SAS-Automation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="D:\Python\Python365\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/__main__.py" />
       <option name="PARAMETERS" value="" />
@@ -97,15 +147,30 @@
       <workItem from="1654154064803" duration="291000" />
       <workItem from="1654154415008" duration="1407000" />
       <workItem from="1654156541960" duration="86000" />
+      <workItem from="1667504982822" duration="7318000" />
+      <workItem from="1667512532480" duration="1329000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/shahid_mismatches$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1649184299375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_project_template$__main____1_.coverage" NAME="__main__ (1) Coverage Results" MODIFIED="1667513740256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_project_template$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1667513816540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SAS_Automation$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1654156624100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/shahid_mismatches$main.coverage" NAME="__main__ Coverage Results" MODIFIED="1645520361862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/shahid_mismatches$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1649184299375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

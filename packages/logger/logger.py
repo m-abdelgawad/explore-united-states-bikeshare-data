@@ -76,7 +76,7 @@ if __name__ == '__main__':
 
     # Create log file
     logs_file_ = create_log_file(
-        app_name='test', project_abs_path='./'
+        app_name='test', project_abs_path='/'
     )
 
     # Initiate logger

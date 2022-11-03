@@ -1,7 +1,7 @@
 import os
 
 
-def get_abs_path():
+def get():
     return os.path.abspath(__file__ + "/../../..")
 
 
