@@ -80,6 +80,7 @@ This project was developed using the following tech stacks:
 * ![Django]
 * ![Oracle]
 * ![Linux]
+* ![Windows10]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -187,3 +188,4 @@ Resource that I found helpful during the developing of this project:
 [Django]: images/django-logo.png
 [Oracle]: images/oracle-logo.png
 [Linux]: images/linux-logo.png
+[Windows10]: images/windows-10-logo.png
