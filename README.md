@@ -77,13 +77,13 @@ Use the `BLANK_README.md` to get started.
 
 This project was developed using the following tech stacks:
 
-* ![Python]
-* ![UiPath]
-* ![Bash]
-* ![Django]
-* ![Oracle]
-* ![Linux]
-* ![Windows10]
+* <img src="images/python-logo.png" alt="Logo" width="100">
+* <img src="images/uipath-logo.png" alt="Logo" width="100">
+* <img src="images/bash-logo.png" alt="Logo" width="100">
+* <img src="images/django-logo.png" alt="Logo" width="100">
+* <img src="images/oracle-logo.png" alt="Logo" width="100">
+* <img src="images/linux-logo.png" alt="Logo" width="100">
+* <img src="images/windows-10-logo.png" alt="Logo" width="100">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,7 +123,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Screensshots
 
-![example title](images/screenshot.png)
+![product-screenshot]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -185,10 +185,3 @@ Resource that I found helpful during the developing of this project:
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/m-abdelgawad/
 [product-screenshot]: images/screenshot.png
-[Python]: images/python-logo.png
-[UiPath]: images/uipath-logo.png
-[Bash]: images/bash-logo.png
-[Django]: images/django-logo.png
-[Oracle]: images/oracle-logo.png
-[Linux]: images/linux-logo.png
-[Windows10]: images/windows-10-logo.png
