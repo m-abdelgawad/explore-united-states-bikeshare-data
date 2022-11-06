@@ -165,7 +165,7 @@ Github Profile Link: [https://github.com/m-abdelgawad](https://github.com/m-abde
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Resources that I found helpful during the developing of this project:
+Resources that I found helpful during the development of this project:
 
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
