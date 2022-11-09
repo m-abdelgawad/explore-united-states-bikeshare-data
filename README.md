@@ -41,7 +41,8 @@
       <ul>
         <li><a href="#libraries">Libraries</a></li>
         <li><a href="#packages">Packages</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#service-accounts">Service Accounts</a></li>
+        <li><a href="#known-exceptions">Known Exceptions</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -115,14 +116,19 @@ To get a local copy up and running follow these simple steps.
 * SharePoint
 * SmartTeamSite
 
-### Installation
+### Service Accounts
+* [Username]: [Username Usage]
 
-1. Clone the repo
-   ```sh
-   git clone https://github.com/m-abdelgawad
-   ```
-2. Open the project in any IDM such as Pycharm.
-   
+### Known Exceptions
+* [Exception Short Name]:
+    * Exception Code: 
+        * [Exception Code]
+    * Exception Impact: 
+        * [Exception Impact]
+    * Exception Root Cause:
+        * [Exception Root Cause]
+    * Action to be Taken:
+        * [Action to be Taken when an exception occurs]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
