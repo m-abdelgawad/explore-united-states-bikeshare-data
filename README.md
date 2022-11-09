@@ -40,6 +40,7 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#packages">Packages</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -58,6 +59,12 @@
 
 ![product-screenshot]
 
+* Project Name: [Process Name]
+* Version: [Current Version]
+* Organization Department: [Project Department]
+* Function: [Project Function]
+
+### Description
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
 Here's why:
@@ -95,7 +102,7 @@ This project was developed using the following tech stacks:
 In this section, I will give you instructions on setting up this project locally.
 To get a local copy up and running follow these simple steps.
 
-### Prerequisites
+### Libraries
 
 * pip
   ```sh
@@ -104,6 +111,9 @@ To get a local copy up and running follow these simple steps.
   ```sh
   pip install cx_oracle
   ```
+### Packages
+* SharePoint
+* SmartTeamSite
 
 ### Installation
 
