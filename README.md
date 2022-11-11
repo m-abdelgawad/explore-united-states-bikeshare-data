@@ -16,9 +16,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/m-abdelgawad">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
   <h3 align="center">Project Name</h3>
 
@@ -63,7 +61,6 @@
 * Project Name: [Process Name]
 * Version: [Current Version]
 * Organization Department: [Project Department]
-* Function: [Project Function]
 
 ### Description
 There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
@@ -92,6 +89,7 @@ This project was developed using the following tech stacks:
 * <img src="images/oracle-logo.png" alt="Logo" width="100">
 * <img src="images/linux-logo.png" alt="Logo" width="100">
 * <img src="images/windows-10-logo.png" alt="Logo" width="100">
+* <img src="images/Sharepoint-Logo.png" alt="Logo" width="100">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
