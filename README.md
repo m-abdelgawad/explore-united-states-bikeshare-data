@@ -82,14 +82,18 @@ Use the `BLANK_README.md` to get started.
 
 This project was developed using the following tech stacks:
 
-* <img src="images/python-logo.png" alt="Logo" width="100">
-* <img src="images/uipath-logo.png" alt="Logo" width="100">
-* <img src="images/bash-logo.png" alt="Logo" width="100">
-* <img src="images/django-logo.png" alt="Logo" width="100">
-* <img src="images/oracle-logo.png" alt="Logo" width="100">
-* <img src="images/linux-logo.png" alt="Logo" width="100">
-* <img src="images/windows-10-logo.png" alt="Logo" width="100">
-* <img src="images/Sharepoint-Logo.png" alt="Logo" width="100">
+* Python
+* UiPath
+* Bash
+* Django
+* Oracle Database
+* Linux
+* Windows 10
+* SharePoint
+* HTML
+* CSS
+* Javescript
+* Bootstrap
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
