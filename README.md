@@ -1,205 +1,95 @@
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
+# Explore US Bikeshare Data In Python
 
-<a name="readme-top"></a>
+## Project Overview
 
-[![LinkedIn][linkedin-shield]][linkedin-url]
+Using Python, I explored data related to bike share systems for three major cities in the United States:
+Chicago, New York City, and Washington. The script imports the
+data and answers interesting questions about it by computing descriptive
+statistics. It takes in raw input from the user; to create an interactive experience in the terminal to present these statistics.
 
+## Main Features:
+* Imports the data from .csv Files
+* Cleans the data set from 3 issues: NAN values, Duplicated Rows, and Incorrect Data types
+* Calculates The Most Frequent Times of Travel
+* Calculates The Most Popular Stations and Trip
+* Calculates Mean Trips Duration
+* Calculates User Stats
+* Prints the rows of the raw data in the terminal based on the user's choice
+* Saves the raw data after filtering on a specific day and month, in a new .csv file
+* Prints general information about the data set
+* Plots different types of graphs (Bar, Scatter, Pie) on the numerical variables in the data set, and saves them in a new folder
 
+## What Software Did I Need?
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-
-  <h3 align="center">Project Name</h3>
-
-</div>
-
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#libraries">Libraries</a></li>
-        <li><a href="#packages">Packages</a></li>
-        <li><a href="#service-accounts">Service Accounts</a></li>
-        <li><a href="#known-exceptions">Known Exceptions</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
-
-
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-![product-screenshot]
-
-* Project Name: [Process Name]
-* Version: [Current Version]
-* Organization Department: [Project Department]
-
-### Description
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-### Built With
-
-This project was developed using the following tech stacks:
+To complete this project, I used the following software:
 
 * Python
-* UiPath
-* Bash
-* Django
-* Oracle Database
-* Linux
-* Windows 10
-* SharePoint
-* HTML
-* CSS
-* Javescript
-* Bootstrap
+* A text editor: Atom
+* A terminal application: Git Bash
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## The Datasets
 
+Randomly selected data for the first six months of 2017 are provided for
+all three cities. All three of the data files contain the same core six (6) columns:
 
+* Start Time (e.g., 2017-01-01 00:07:57)
+* End Time (e.g., 2017-01-01 00:20:53)
+* Trip Duration (in seconds - e.g., 776)
+* Start Station (e.g., Broadway & Barry Ave)
+* End Station (e.g., Sedgwick St & North Ave)
+* User Type (Subscriber or Customer)
 
-<!-- GETTING STARTED -->
-## Getting Started
+The Chicago and New York City files also have the following two columns:
 
-In this section, I will give you instructions on setting up this project locally.
-To get a local copy up and running follow these simple steps.
+* Gender
+* Birth Year
+<img src="README_images/nyc-data.png">
 
-### Libraries
+## Statistics Computed
 
-* pip
-  ```sh
-  pip install pandas
-  ```
-  ```sh
-  pip install cx_oracle
-  ```
-### Packages
-* SharePoint
-* SmartTeamSite
+The code I wrote in this project computes a variety of descriptive statistics, and
+provides the following answers:
 
-### Service Accounts
-* [Username]: [Username Usage]
+### #1 Popular times of travel (i.e., occurs most often in the start time)
 
-### Known Exceptions
-* [Exception Short Name]:
-    * Exception Code: 
-        * [Exception Code]
-    * Exception Impact: 
-        * [Exception Impact]
-    * Exception Root Cause:
-        * [Exception Root Cause]
-    * Action to be Taken:
-        * [Action to be Taken when an exception occurs]
+* most common month
+* most common day of week
+* most common hour of the day
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+### #2 Popular stations and trip
 
+* most common start station
+* most common end station
+* most common trip from start to end (i.e., most frequent combination of start station and end station)
 
+### #3 Trip duration
 
-<!-- USAGE EXAMPLES -->
-## Usage
+* total travel time
+* average travel time
 
-### Screensshots
+### #4 User info
 
-![product-screenshot]
+* counts of each user type
+* counts of each gender (only available for NYC and Chicago)
+* earliest, most recent, most common year of birth (only available for NYC and Chicago)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Screenshots
 
+<img src="images/screenshot1.png">
+<img src="images/screenshot2.png">
+<img src="images/screenshot3.png">
+<img src="images/screenshot4.png">
+<img src="images/screenshot5.png">
+<img src="images/screenshot6.png">
 
+## Certification
 
-<!-- ROADMAP -->
-## Roadmap
+This project was a milestone in my journey to study the Data Analysis Professional Nanodegree provided by Udacity.
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+[![Advanced Data Analysis Nanodegree by Udacity](images/Udacity_Nanodegree_Graduation_Certificate.jpg)](https://confirm.udacity.com/5G4S74GJ "Advanced Data Analysis Nanodegree by Udacity")
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## About The Author
 
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Mohamed AbdelGawad Ibrahim - [@m-abdelgawad](https://www.linkedin.com/in/m-abdelgawad/) - +201069052620 - muhammadabdelgawwad@gmail.com
-
-Github Profile Link: [https://github.com/m-abdelgawad](https://github.com/m-abdelgawad)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Resources that I found helpful during the development of this project:
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/m-abdelgawad/
-[product-screenshot]: images/screenshot.png
+* Author: Mohamed Abdel-Gawad Ibrahim
+* Contact: muhammadabdelgawwad@gmail.com
+* Phone: +201069052620 || +201147821232
