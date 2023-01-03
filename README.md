@@ -2,8 +2,7 @@
 
 ## Project Overview
 
-In this project, I used Python to explore data related to
-bike share systems for three major cities in the United States:
+Using Python, I explored data related to bike share systems for three major cities in the United States:
 Chicago, New York City, and Washington. The script imports the
 data and answers interesting questions about it by computing descriptive
 statistics. It takes in raw input from the user; to create an interactive experience in the terminal to present these statistics.
@@ -76,18 +75,18 @@ provides the following answers:
 
 ## Screenshots
 
-<img src="README_images/screenshot1.png">
-<img src="README_images/screenshot2.png">
-<img src="README_images/screenshot3.png">
-<img src="README_images/screenshot4.png">
-<img src="README_images/screenshot5.png">
-<img src="README_images/screenshot6.png">
+<img src="images/screenshot1.png">
+<img src="images/screenshot2.png">
+<img src="images/screenshot3.png">
+<img src="images/screenshot4.png">
+<img src="images/screenshot5.png">
+<img src="images/screenshot6.png">
 
 ## Certification
 
 This project was a milestone in my journey to study the Data Analysis Professional Nanodegree provided by Udacity.
 
-[![Advanced Data Analysis Nanodegree by Udacity](Udacity_Nanodegree_Graduation_Certificate.jpg)](https://confirm.udacity.com/5G4S74GJ "Advanced Data Analysis Nanodegree by Udacity")
+[![Advanced Data Analysis Nanodegree by Udacity](images/Udacity_Nanodegree_Graduation_Certificate.jpg)](https://confirm.udacity.com/5G4S74GJ "Advanced Data Analysis Nanodegree by Udacity")
 
 ## About The Author
 
