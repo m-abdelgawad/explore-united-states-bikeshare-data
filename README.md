@@ -43,7 +43,7 @@ The Chicago and New York City files also have the following two columns:
 
 * Gender
 * Birth Year
-<img src="README_images/nyc-data.png">
+<img src="images/nyc-data.png">
 
 ## Statistics Computed
 
